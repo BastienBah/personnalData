@@ -1,10 +1,14 @@
-<h1>Cookies</h1>
-
 <div class="container">
-    <div>
-        <p>Nos partenaires et nous mêmes utilisons différentes technologies telles que les cookies afin de personnaliser les contenus et les publicités, proposer des foncitonnalités sur les réseaux sociaux et analyser le traffic. Merci de cliquer sur le bouton ci-dessouS pour donner votre accord. Vous pouvez changer d'avis et modifier vos choix à tout moment.</p>
+    <div class="row">
+        <div class="col-12 col-md-10 col-lg-6">
+            <div class="box-container">
+                <h1>Cookies</h1>
+                <p>Nos partenaires et nous mêmes utilisons différentes technologies telles que les cookies afin de personnaliser les contenus et les publicités, proposer des foncitonnalités sur les réseaux sociaux et analyser le traffic. Merci de cliquer sur le bouton ci-dessouS pour donner votre accord. Vous pouvez changer d'avis et modifier vos choix à tout moment.</p>
+                <div class="succes"><%= link_to 'Accepter les cookies', lose_path, class: "btn btn-success"%></div>
+                <div class="ignore"><%= link_to 'En savoir plus', win_path %></div>
+                
+            </div>
+        </div>
     </div>
-    <%= link_to 'Accepter les cookies', lose_path, class: "btn btn-success"%>
-    <%= link_to 'En savoir plus', win_path %>
 </div>
 
