@@ -61,5 +61,13 @@ body {
 }
 
 .ignore, .succes {
-    text-align: center
+    text-align: center;
 }
+
+.more{
+    .succes{
+        margin: auto;
+        display: inline-block;
+    }
+}
+
