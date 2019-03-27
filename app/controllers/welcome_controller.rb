@@ -15,4 +15,8 @@ class WelcomeController < ApplicationController
     def win
         
     end
+
+    def ctonchoix
+        
+    end
 end

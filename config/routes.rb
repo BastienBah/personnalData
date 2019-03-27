@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get '/lose' => 'welcome#lose'
   get '/more' => 'welcome#more'
   get '/win' => 'welcome#win'
+  get '/ctonchoix' => 'welcome#ctonchoix'
 
 end
