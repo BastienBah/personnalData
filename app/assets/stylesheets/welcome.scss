@@ -65,9 +65,14 @@ body {
 }
 
 .more{
+    width: 100%;
     .succes{
         margin: auto;
         display: inline-block;
+
+        a {
+            margin: 5px auto;
+        }
     }
 }
 
